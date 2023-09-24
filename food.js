@@ -360,7 +360,7 @@ let arr = [
     return type.calorie < 100;
   });
 
-  let proteinrange = arr.sort((a, b)=>{
+  let proteinrange = packageJson.sort((a, b)=>{ //Display food items with protiens in range from highest to lowest those are stored in proteinArr
     return b.protiens - a.protiens;
   });
 
